@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inloggen</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/sign.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="inlogpagina">
+    
+    <header>
+
+		<!-- Navigatie balk met werkend hamburgermenu -->
+
+		<nav>
+			<ul>
+				<li><button><img src="images/hamburger.png" alt="Menu"></button></li>
+				
+				<li><a href="index.html"><img src="images/logo.png" alt="Large logo"></a></li>
+				<li><img src="images/wishlist.png" alt="Wishlist"></li>
+				<li><a href=""><img src="images/cart.png" alt="Cart"></a></li>
+			</ul>
+
+			<ul>
+				<li><img src="images/wishlist2.png" alt="Wishlist active"></li>
+			</ul>
+
+			<ul>
+				<li><button><img src="images/kruisje.png" alt="Kruisje"></button></li>
+				<li><p>Nieuw</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Vrouwen</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Mannen</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Kinderen</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Schoenen</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Band Merch</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Films & Series</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Gaming</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Wonen & vrije tijd</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Accessoires</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><p>Sale %</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><img src="images/sustain.png" alt="Sustainability"><p>Sustainability</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+				<li><img src="images/acc.png" alt="Account"><p>Mijn account</p><img src="images/pijltje.png" alt="Pijltje naar beneden"></li>
+			</ul>
+		</nav>
+		
+		<!-- zoekbalk -->
+
+		<nav>
+			<form>
+				<input type="text" placeholder="Waar ben je naar op zoek?">				
+				<button type="submit">Zoeken</button>
+								
+			</form>
+		</nav>
+
+	</header>
+
+
+    <main>
+
+        <!-- inlog formulier -->
+
+        <section>
+				<div id="error"></div>
+                <ul>
+                    <li><img src="images/acc_two.png" alt="Profielfoto"></li>
+                    <li><p>Inloggen</p></li>
+                </ul>
+
+            <form id="form">    
+				<label for="email">Je e-mailadres</label>
+                <input type="email" id="email" placeholder="large@gmail.com" required>
+				<label for="password">Je wachtwoord</label>
+                <input type="password" id="password" placeholder="******" minlength="8" maxlength="20" required>
+				
+				<label for="birthday">Je geboortedatum</label>
+				<input type="date" id="birthday" name="birthday" required>
+
+				<button type="submit">Inloggen</button>
+                <a href=""><p>Wachtwoord vergeten?</p></a>
+            </form>   
+
+                <ul>
+                    <li><button><img src="images/googlelogo.png" alt="Logo Google">Inloggen</button></li>
+                    <li><button><img src="images/facebookicon.png" alt="Logo Facebook">Inloggen</button></li>
+                </ul>
+            
+        </section>
+
+        <section>
+            <ul>
+                <li><p>Nieuwe klanten</p></li>
+                <li><button>Maak nu een account aan</button></li>
+            </ul>
+
+            <ul>
+                <li><p>De voordelen van een Large account</p></li>
+                <li><p>Volg je bestelling</p></li>
+                <li><p>Deel je verlanglijst</p></li>
+                <li><p>Beoordeel je favoriete artikelen</p></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+
+		<section>
+			<ul>
+				<li><p>Wij staan voor je klaar</p></li>
+				<li><p>Vandaag is onze klantenservice bereikbaar van 09:00 tot 17:00.</p></li>
+				<li><button>Neem contact met ons op</button></li>
+			</ul>
+
+			<ul>
+				<li><img src="images/waarborg.png" alt="Thuiswinkel waarborg"></li>
+				<li><img src="images/trust.png" alt="trust Ecommerce Europe"></li>
+				<li><img src="images/duimpje.png" alt=""></li>
+			</ul>
+		</section>
+
+		<section>
+			<details>
+				<summary>
+						<h1>E-mailnieuwsbrief</h1>
+						<img src="images/pijltjetwee.png" alt="Pijl naar beneden">
+				</summary>
+						<p>Meld je aan en ontvang een code voor 10% korting!</p>
+						<p>10% korting</p>
+						<p>*De code is vier weken geldig en kan niet met andere promoties worden gecombineerd.
+							Niet geldig voor boeken, media, cadeaubonnen, Rammstein, Böhse Onkelz en artikelen
+							die bijdragen aan een goed doel.</p>
+						<button>Meer info</button>
+			</details>
+		</section>
+
+		<section>
+			<ul>
+				<li><p>Over Large</p></li>
+			</ul>
+
+			<ul>
+				<a href="index.html"><li><p>Veelgestelde vragen</p></li></a>
+				<a href="index.html"><li><p>Verzendkosten</p></li></a>
+				<a href="index.html"><li><p>Retourservice</p></li></a>
+				<a href="index.html"><li><p>Algemene maat info</p></li></a>
+				<a href="index.html"><li><p>Duurzaamheid</p></li></a>
+				<a href="index.html"><li><p>Cookiebeleid</p></li></a>
+				<a href="index.html"><li><p>Algemene voorwaarden</p></li></a>
+				<a href="index.html"><li><p>Algemene informatie</p></li></a>
+				<a href="index.html"><li><p>Privacyverklaring</p></li></a>
+				<a href="index.html"><li><p>Bedrijfsgegevens</p></li></a>
+			</ul>
+		</section>
+
+		<section>
+			<ul>
+				<li><img src="images/wmg.png" alt="A Warner Music Group Company"></li>
+				<li><p>Alle prijzen incl. wettelijke BTW</p></li>
+				<li><p>© 1986-2021 Large Popmerchandising B.V. (B.A.)</p></li>
+			</ul>
+		</section>
+
+
+	</footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
